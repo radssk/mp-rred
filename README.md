@@ -13,11 +13,19 @@ A minimal **Streamlit** interface for running an LLM (e.g. OpenAI GPT‑4o) on
 ## Installation (Conda)
 
 ```bash
-git clone https://github.com/<YOUR-ID>/<REPO-NAME>.git
-cd <REPO-NAME>
-conda create -n llm_demo python=3.10 -y && conda activate llm_demo
+# clone the repo and enter it
+git clone https://github.com/radssk/mp-rred.git
+cd mp-rred
+
+# create and activate an isolated Python 3.10 env
+conda create -n mp_rred python=3.10 -y
+conda activate mp_rred
+
+# install dependencies
 pip install -r requirements.txt
-streamlit run app.py    # Opens http://localhost:8501
+
+# launch the app
+streamlit run app.py
 ```
 
 > Excel output is written to **your current working directory**.
