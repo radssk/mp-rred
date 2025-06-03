@@ -46,7 +46,7 @@ streamlit run app.py
 ## Usage
 
 1. **Upload** a CSV containing a `report` column.
-2. **Enter** your API key & chosen model (`o4-mini`, `o3`, …). *Model applies only to the 2nd & 3rd passes.* *must be a JSON Schema-compatible OpenAI model*
+2. **Enter API key & model** (OpenAI JSON‑Schema–compatible, e.g. o4-mini, o3). Model choice affects only 2nd & 3rd passes.
 3. Click **LLM Error Detection**.
 4. For each flagged report, select **True Error** or **False Positive** → **Save & Next**.
 5. When finished, review the summary and download `output.xlsx`.
