@@ -16,10 +16,10 @@ git clone https://github.com/radssk/mp-rred.git
 cd mp-rred
 ```
 
-create and activate an 'mm_rred' conda environment
+create and activate an 'mm-rred' conda environment
 ```bash
-conda create -n mp_rred python=3.10 -y
-conda activate mp_rred
+conda create -n mp-rred python=3.10 -y
+conda activate mp-rred
 ```
 
 install dependencies
