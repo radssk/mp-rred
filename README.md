@@ -9,19 +9,26 @@ https://chatgpt.com/share/683d0ee0-3168-8008-a45a-d85efe6473eb
 
 ## Installation (Conda)
 
+clone the repo and enter it
+
 ```bash
-# clone the repo and enter it
 git clone https://github.com/radssk/mp-rred.git
 cd mp-rred
+```
 
-# create and activate an isolated Python 3.10 env
+create and activate an 'mm_rred' conda environment
+```bash
 conda create -n mp_rred python=3.10 -y
 conda activate mp_rred
+```
 
-# install dependencies
+install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# launch the app
+launch the app
+```bash
 streamlit run app.py
 ```
 
