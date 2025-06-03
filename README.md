@@ -1,12 +1,9 @@
-# MP‑RRED: Multi‑pass LLM Radiology Report Error Detector
+# 📑 MP‑RRED: Multi‑pass LLM Radiology Report Error Detector
 
 
 https://chatgpt.com/share/683d0ee0-3168-8008-a45a-d85efe6473eb
 
 
-# 📑 LLM Streamlit Demo
-
-A minimal **Streamlit** interface for running an LLM (e.g. OpenAI GPT‑4o) on radiology reports and exporting results to Excel. The API key is entered **in‑app**—no environment variables required.
 
 ---
 
@@ -35,9 +32,7 @@ streamlit run app.py
 ## Try it online (no install)
 
 1. Visit **https\://<USER>-<REPO>.streamlit.app**.
-2. Paste your **API key** when prompted.
-3. Upload a CSV and run the workflow.
-4. Download the generated Excel.
+
 
 ---
 
