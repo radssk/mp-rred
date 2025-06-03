@@ -38,7 +38,7 @@ streamlit run app.py
 
 ## Try it online (no install)
 
-1. Visit **https\://<USER>-<REPO>.streamlit.app**.
+Visit **https\://<USER>-<REPO>.streamlit.app**.
 
 
 ---
