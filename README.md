@@ -58,9 +58,3 @@ If this tool aids your research, please cite our preprint:
   year   = {2025}
 }
 ```
-
----
-
-## License 
-This project is released under the MIT License.
-   
