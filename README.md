@@ -1,5 +1,4 @@
-# 📑 MP‑RRED
-Multi‑Pass LLM Radiology Report Error Detector
+# 📑 MP‑RRED: Multi‑Pass LLM Radiology Report Error Detector
 
 
 
