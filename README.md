@@ -1,6 +1,6 @@
 # 📑 MP‑RRED: Multi‑Pass LLM Radiology Report Error Detector
 
-![](assets/pipeline.png)
+![Three-pass LLM pipeline](assets/pipeline.png)
 ![](assets/ui.png)
 
 ---
