@@ -29,13 +29,6 @@ streamlit run app.py
 
 ---
 
-## Try it online (no install)
-
-Visit **https\://<USER>-<REPO>.streamlit.app**.
-
-
----
-
 ## Usage
 
 1. **Upload** a CSV containing a `report` column.
