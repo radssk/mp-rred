@@ -43,9 +43,6 @@ streamlit run app.py
 ---
 
 ## Citation
-
-If this tool aids your research, please cite our preprint:
-
 ```bibtex
 @misc{lastname2025llmstreamlit,
   title  = {LLM Streamlit Demo},
