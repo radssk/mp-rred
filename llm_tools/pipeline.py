@@ -3,15 +3,10 @@ import csv, json
 from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
 from pathlib import Path
 from typing import List, Tuple
-
 import pandas as pd, streamlit as st
 from stqdm import stqdm as tqdm
-
 from llm_tools import prompt, llm_call
 
-# ──────────────────────────────────────────────
-# New preprocessing stage
-# ──────────────────────────────────────────────
 def _preprocess_reports(df: pd.DataFrame, client, model: str) -> List[int]:
     failed: List[int] = []
 
@@ -70,9 +65,8 @@ def _preprocess_reports(df: pd.DataFrame, client, model: str) -> List[int]:
 
     return failed
 
-# ──────────────────────────────────────────────
-# Existing stages (slightly modified)
-# ──────────────────────────────────────────────
+
+
 def _evaluate_first_pass(df: pd.DataFrame, client, model: str) -> List[int]:
     failed: List[int] = []
 
@@ -148,9 +142,9 @@ def _evaluate_fp_pass(df: pd.DataFrame, client, model: str):
             finally:
                 pbar.update()
 
-# ──────────────────────────────────────────────
-# Public entry point
-# ──────────────────────────────────────────────
+
+
+
 def get_unstructured_accuracy(
     data: pd.DataFrame,
     *,
