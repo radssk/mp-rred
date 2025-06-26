@@ -43,6 +43,7 @@ streamlit run app.py
 ---
 
 ## Citation
+```bash
 Kim, Songsoo, et al. “A Multi‑Pass Large Language Model Framework for Precise and Efficient Radiology Report Error Detection.” arXiv, 25 June 2025, arXiv:2506.20112, https://arxiv.org/abs/2506.20112.
-
+```
 
