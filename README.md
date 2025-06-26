@@ -43,11 +43,6 @@ streamlit run app.py
 ---
 
 ## Citation
-```bibtex
-@misc{lastname2025llmstreamlit,
-  title  = {LLM Streamlit Demo},
-  author = {Lastname, First and Coauthors},
-  note   = {arXiv:XXXX.XXXXX},
-  year   = {2025}
-}
-```
+Kim, Songsoo, et al. “A Multi‑Pass Large Language Model Framework for Precise and Efficient Radiology Report Error Detection.” arXiv, 25 June 2025, arXiv:2506.20112, https://arxiv.org/abs/2506.20112.
+
+
